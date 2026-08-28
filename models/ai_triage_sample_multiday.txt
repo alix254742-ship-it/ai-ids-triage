@@ -1,0 +1,24 @@
+============================================================
+AI TRIAGE SUMMARY — Multi-Day Model
+============================================================
+
+ALERT: ATTACK
+ATTACK TYPE: DoS Hulk
+MITRE: T1499 (Endpoint Denial of Service)
+CONFIDENCE: 100.00%
+
+Hey there, let's break down this alert. Here's what happened:
+
+**WHAT HAPPENED?**
+Our system detected a potential DoS (Denial of Service) attack on an endpoint, specifically on outgoing packets. The attack appears to be using a technique called "Hulk," which can flood the endpoint with traffic to make it unusable.
+
+**WHY SHOULD I CARE?**
+If this attack is successful, it could lead to significant downtime and impact our organization's ability to function.
+
+**WHAT SHOULD I DO NOW?**
+1. Investigate the endpoint's connection logs to see if there's any suspicious activity.
+2. Check the system's configuration to ensure that our firewalls are properly configured to block this type of traffic.
+3. Consider escalating this alert to our incident response team to further investigate and contain the threat.
+
+**THE BIGGER PICTURE**
+This alert is part of a larger pattern of suspicious activity that our SOC has been monitoring, indicating a potential larger-scale attack on our network.
